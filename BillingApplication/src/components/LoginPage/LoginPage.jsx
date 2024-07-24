@@ -93,7 +93,7 @@ const LoginPage = () => {
         </form>
         <footer>
           Powered by <span className="brand-name">CombatTeam</span>
-        </footer>
+        </footer> 
       </div>
     </div>
   );
