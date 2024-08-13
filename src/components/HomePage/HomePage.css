@@ -1,0 +1,16 @@
+/* HomePage.css */
+
+.categories {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.billing-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  /* overflow-y: auto; */
+  height: 550px; 
+}
+

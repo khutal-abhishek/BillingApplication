@@ -1,0 +1,106 @@
+/* Ensure the table fits within the container */
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  margin: 20px 0;
+}
+
+/* Fixed table layout to prevent content from expanding the table */
+.table {
+  width: 100%;
+  table-layout: fixed; /* Ensures table width remains within the container */
+  border-collapse: collapse; /* Ensure borders collapse for a cleaner look */
+}
+
+/* Define a consistent column width */
+.table th, .table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds ellipsis for overflow content */
+  padding: 8px;
+  max-width: 150px; /* Set a max width for each column */
+}
+
+/* Adjust the width for specific columns if necessary */
+.table th:nth-child(1), .table td:nth-child(1) {
+  width: 50px; /* Adjust the width of the first column (e.g., for sl or id) */
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+  width: 60px; /* Adjust the width for the image column */
+}
+
+/* Ensure images do not overflow */
+.prodImg img {
+  max-width: 50px;
+  height: auto;
+  display: block;
+  
+}
+
+/* Ensure text wraps nicely */
+.table th, .table td {
+  word-wrap: break-word;
+}
+
+/* Make sure the search bar aligns properly */
+.searchbar {
+  margin-bottom: 20px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+/* Utility classes for buttons */
+.icondel, .idonupd {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Adjust pagination styles */
+.pagination .page-item .page-link {
+  color: #28a745;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.pagination .page-item .page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+.catImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catImg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-form {
+  padding: 20px;
+}
+
+.category-form .btn {
+  background-color: green;
+}
+
+.category-form .frminpt {
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.399);
+}

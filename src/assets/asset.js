@@ -1,4 +1,4 @@
-import logo from "./logo.webp";
+import logo from "./logoGM.png";
 
 export const assets = {
   logo,

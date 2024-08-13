@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #57b849;
+    --secondary-color: #616362;
+    --bgColor: #cbcbcb88;
+  }
+  
+  .navbar {
+    background-color: var(--bgColor);
+  }
+  
+  .logo img {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+  }
+  
+  .hed1 {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .hed2 {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+  .nav-link {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    padding: 8px 15px;
+  }
+  
+  .nav-item:last-child .nav-link {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: var(--primary-color);
+  }
+  
+
+
+
+
